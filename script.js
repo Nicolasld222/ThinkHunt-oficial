@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const categorias = [
     { id: 'button-animal', url: 'AnimalesCat.html' },
     { id: 'button-famoso', url: 'FamososCat.html' },
-    { id: 'button-objeto', url: 'ObjetosCat.html' },
+    { id: 'button-objeto', url: 'ObjectosCat.html' },
     { id: 'button-videojuego', url: 'VideoJuegosCat.html' }
   ];
 
