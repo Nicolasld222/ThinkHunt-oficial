@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./styless.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinanzas</title>
+</head>
+<body>
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div id="alerta-personalizada" class="alerta-oculta">
+        <div class="alerta-contenido">
+            <p id="mensaje-alerta"></p>
+            <button onclick="ocultarAlerta()">Aceptar</button>
+        </div>
+    </div>
+
+
+    <main>
+
+        <div class="regresar">
+            <a href="index.html">←</a>
+        </div>
+        <div class="header-login">
+            <h1>Registrate en </h1>
+            <img src="logo juego.png" alt="">
+        </div>
+        <form class="formReg" id="formRegistro">
+            <h1>Registro</h1>
+            <h2>Usuario</h2>
+            <input type="text" id="usuarioReg" name="usuario" required>
+            <h2>Email</h2>
+            <input type="email" id="emailReg" name="email" required>
+            <h2>Contraseña</h2>
+            <input type="password" id="contrasenaReg" name="contrasena" required>
+            <h2 id="textEscondido"></h2>
+            <div class="buttom-login">
+                <button id="CrearUs" >Crear Usuario</button>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>

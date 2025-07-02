@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panel de Administración</title>
+  <link rel="stylesheet" href="styless.css" />
+</head>
+<body>
+  <div class="particles-container">
+    <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+  </div>
+
+  <main id="panel-admin"  class="panel-admin">
+
+    <div class="regresar">
+            <a href="index.html">←</a>
+        </div>
+    <h1>Configuración de Estilos</h1>
+    
+
+    <div class="primer-cont">
+
+    <section class="Fondo-edit">
+      <h2>Colores de Fondo</h2>
+      <div>
+        <label>Color Principal </label>
+        <input type="color" id="colorFondoBase" />
+      </div>
+      <div>
+        <label>Color Gradiente Inferior</label>
+        <input type="color" id="colorFondoGradiente" />
+      </div>
+    </section>
+
+    <section class="Boton-edit">
+      <h2>Colores de Botones</h2>
+      <div>
+        <label>Gradiente Izquierdo</label>
+        <input type="color" id="colorBoton1" />
+      </div>
+      <div>
+        <label>Gradiente Derecho</label>
+        <input type="color" id="colorBoton2" />
+      </div>
+      <div>
+        <label>Texto de Botón</label>
+        <input type="color" id="colorTextoBoton" />
+      </div>
+    </section>
+
+    <section class="Texto-edit">
+      <h2>Colores de Texto General</h2>
+      <div>
+        <label>Color para h1, h2, p, a</label>
+        <input type="color" id="colorTextoGeneral" />
+      </div>
+    </section>
+
+    </div>
+
+    <button id="guardarEstilos">Guardar Cambios</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
